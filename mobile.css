@@ -1,0 +1,223 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      .header_search {
+  margin-top: 63px;
+}
+.main-navigation li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header_search {
+  margin-top: 10px;
+}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .main-navigation li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+        .header_search {
+  margin-top: 10px;
+}
+.founder_title {
+   background-size: 5% auto;
+}
+.details_title {
+    background-size: 5% auto;
+}
+.email_list {
+  background-size: 5% auto;
+}
+.website_list {
+  background-size: 4% auto;
+}
+.stash-box span {
+  display: block;
+  margin-top: 10px;
+}
+.stash-box a {
+  
+  text-align: center;
+}
+.site-content {
+ 
+  padding-top: 20px;
+}
+.stash-container {
+  margin-top: 0;
+}
+.details_block {
+  margin-top: 10px;
+
+}
+      .col-md-8.prod_details {
+  margin-bottom: 20px;
+}
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .col-md-12.search-block > h1 {
+   font-size: 23px;
+  }
+
+       .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.site_logo {
+  text-align: center;
+}
+.header_search {
+  float: none;
+  margin-top: 20px;
+  text-align: center;
+}
+.search_button {
+  bottom: 1px;
+  left: 32px;
+  position: absolute;
+  
+}
+      .home-search .search_button {
+  bottom: 60px;
+  left: 33px;
+  position: absolute;
+  top: 129px;
+}
+.home-search input[type="text"] {
+  font-size: 14px;
+  width: 100%;
+}
+
+input[type="text"] {
+  padding-left: 50px;
+  width: 100%;
+}
+.mobile-navi .sub-menu li {
+  border-bottom: medium none;
+  list-style: outside none none;
+  padding: 3px 3px 3px 60px;
+}
+.row.footer_row {
+  text-align: center;
+}
+.related_products_block {
+  padding-bottom: 12px;
+}
+.single_entry_event {
+  text-align: center;
+}
+.stash_category_list > li {
+  float: none;
+  list-style: outside none none;
+  padding-right: 20px;
+}
+.footer_wid {
+  border-bottom: 1px solid #6f5dba;
+  margin-bottom: 10px;
+  padding-bottom: 16px;
+  padding-top: 10px;
+}
+.founders_block li {
+  padding: 8px 9px;
+}
+.prod_details {
+  padding: 0;
+  }
+.row.product_logo_wrap {
+  padding-top: 20px;
+}
+.container-fluid.header-top-fluid {
+  background-color: #5b48a2;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.site-content {
+  padding-top: 20px;
+}
+.stash-container {
+  margin-top: 0px;
+}
+.stash_entry {
+  border: medium none;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.stashlist-header {
+  text-align: center;
+}  
+.visit_web_button {
+  text-align: center;
+}
+.mobile_padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.stash_entry_content {
+  margin-top: 12px;
+}
+
+.single-products .site-content {
+  padding-top: 0px;
+}
+.search-block {
+  
+  margin-bottom: 30px;
+  margin-top: 30px;
+ 
+}
+
+  }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+.single_related .product_name {
+  font-size: 12px;
+}
+.iphone_img {
+  padding-right: 0;
+}
+.site-description {
+
+  font-size: 14px;
+}
+.founder_title {
+   background-size: 7% auto;
+}
+.details_title {
+    background-size: 7% auto;
+}
+.email_list {
+  background-size: 7% auto;
+}
+.website_list {
+  background-size: 6% auto;
+}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+      .founder_title {
+   background-size: 10% auto;
+}
+.details_title {
+    background-size: 10% auto;
+}
+.email_list {
+  background-size: 10% auto;
+}
+.website_list {
+  background-size: 9% auto;
+}
+    
+    }
